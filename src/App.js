@@ -73,8 +73,7 @@ export default function App() {
   console.log("handle add", multiForm);
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Multiform Example</h1>
       {MultiForm()}
       <Button onClick={() => handleAdd()}>Add</Button>
       <Button onClick={() => SubmitAdd()}>Add</Button>
